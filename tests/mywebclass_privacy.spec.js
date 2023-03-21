@@ -1,18 +1,9 @@
-const { chromium } = require('playwright');
+// @ts-check
+const { test, expect } = require('@playwright/test')
 
-(async () => {
-  const browser = await chromium.launch();
-  const context = await browser.newContext();
-  const page = await context.newPage();
-
-  await page.goto('http://localhost:3000');
-
-  const privacyPolicyLink = await page.$('a[href="privacy.html"]');
-  if (privacyPolicyLink) {
-    console.log('Privacy policy found!');
-  } else {
-    console.log('Privacy policy not found!');
-  }
-
-  await browser.close();
-})();
+test('Privacy policy should be present on website', async ({ page }) => {
+  await page.goto('http://localhost:3000')
+  // Check if the privacy policy link is present
+  const privacyPolicyLink = await page.$('a[href="privacy.html"]')
+  expect(privacyPolicyLink).toBeDefined()
+})
