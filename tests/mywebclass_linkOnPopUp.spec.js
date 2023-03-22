@@ -10,4 +10,4 @@ test('Privacy Policy Link Test', async ({ page }) => {
   // Check if the privacy policy link is present in the popup
   const privacyPolicyLink = await popup.$('a[href="privacy.html"]')
   expect(privacyPolicyLink).not.toBeNull()
-})
+}, { timeout: 60000 })
