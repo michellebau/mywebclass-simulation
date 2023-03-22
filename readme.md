@@ -65,3 +65,5 @@ Finally, use Playwright to create powerful and reliable automated tests for web 
 # ADD YOUR PROJECT LINKS BELOW THIS 
 
 [Team Productivity Log](team_productivity_log.md)
+
+[Project Installation Instructions](installProjectInstructions.md)
