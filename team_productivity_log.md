@@ -8,8 +8,8 @@
 | As a website user, I want to be informed about the cookies used on the website and be given the option to accept or reject them | --- | https://github.com/amm33/mywebclass-simulation/issues/1 | Completed | Adriana | 3/14 | 3/22 | Feature | --- |
 | As a website user, I want to be able to easily give and withdraw my consent for the use of cookies and other data collection methods, so I have control over my personal data | --- | https://github.com/amm33/mywebclass-simulation/issues/3 | Completed | Adriana | 3/13 | 3/22 | Feature | --- |
 | As a website owner, I want to review the GDPR guidelines to ensure that the website is fully complaint with all regulations | --- | https://github.com/amm33/mywebclass-simulation/issues/2 | Completed | Adriana | 3/13 | 3/22 | Feature | --- |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| As a website owner, I want to optimize my website’s content and structure to improve its relevance to target keywords and improve its search engine rankings | --- | https://github.com/amm33/mywebclass-simulation/issues/8 | Completed | Adriana | 3/13 | 3/22 | Feature | --- |
+| As a website owner, I want to develop a keyword research and targeting strategy to identify the most relevant and valuable keywords for my website | --- | https://github.com/amm33/mywebclass-simulation/issues/7 | Completed | Adriana | 3/14 | 3/22 | Feature | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
