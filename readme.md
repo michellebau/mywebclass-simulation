@@ -68,3 +68,5 @@ Finally, use Playwright to create powerful and reliable automated tests for web 
 [Team Productivity Log](team_productivity_log.md)
 
 [Project Installation Instructions](installProjectInstructions.md)
+
+[MyWebClass Deployed](https://amm33.github.io/mywebclass-simulation/)
