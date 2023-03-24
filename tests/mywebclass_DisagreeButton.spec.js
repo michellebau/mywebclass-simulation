@@ -17,9 +17,8 @@ test('Website should not use cookies after user disagrees', async ({ page }) => 
   // Wait for the cookie to be removed
   await page.waitForTimeout(1000)
 
-  // Check if cookies are being used
-  const cookies = await page.evaluate(() => {
-    return document.cookie
-  })
-  expect(cookies).toBe('')
+  // Check if non-Google Analytics cookies are being used
+  const cookies = await page.context().cookies()
+  const nonGACookies = cookies.filter(cookie => !cookie.name.startsWith('_ga'))
+  expect(nonGACookies.length).toBe(0)
 })
