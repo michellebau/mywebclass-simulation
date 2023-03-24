@@ -1,11 +1,11 @@
 const { test, expect } = require('@playwright/test')
 
-test('Check for Google Analytics', async ({ page }) => {
+test('Check for Google Analytics', async ({ context }) => {
+  const page = await context.newPage()
   await page.goto('http://localhost:3000') // Replace with your website URL
 
-  const hasGoogleAnalytics = await page.evaluate(() => {
-    return typeof window.ga === 'function'
-  })
+  const cookies = await context.cookies()
+  const hasGoogleAnalyticsCookie = cookies.some(cookie => cookie.name === '_ga')
 
-  expect(hasGoogleAnalytics).toBeTruthy()
+  expect(hasGoogleAnalyticsCookie).toBeTruthy()
 })
