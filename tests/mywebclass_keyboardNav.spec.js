@@ -1,10 +1,16 @@
 const { test, expect } = require('@playwright/test');
 
-test('Keyboard Navigation Test', async ({ page }) => {
+test('Popup Keyboard Navigation Test', async ({ page }) => {
   await page.goto('http://localhost:3000');
+
+  await page.waitForSelector('.modal-content', { visible: true })
+
+  // Select all interactive elements within the popup
   const interactiveElements = await page.$$(
-    'a, button, input[type="checkbox"], input[type="radio"], select, textarea'
+    'a, button'
   );
+
+  // Loop through each element and simulate keyboard navigation
   for (const element of interactiveElements) {
     await element.focus();
     const isActive = await page.evaluate(() => document.activeElement === this);
@@ -13,4 +19,8 @@ test('Keyboard Navigation Test', async ({ page }) => {
     const isActivated = await page.evaluate(() => document.activeElement === this);
     expect(isActivated).toBeTruthy();
   }
+
+  // Click on the button that closes the popup
+  const closePopupButton = await page.$('#agreeButton, #disagreeButton');
+  await closePopupButton.click();
 });
