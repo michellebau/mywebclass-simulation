@@ -17,9 +17,15 @@
 | As a website owner, I want to create and publish high-quality content to attract backlinks and improve user engagement and time-on-site metrics | --- | https://github.com/amm33/mywebclass-simulation/issues/9 | Completed | Adriana | 3/14 | 3/24 | Feature | --- |
 | As a website owner, I want to conduct an SEO audit to identify technical and content-related issues that are hurting my website’s search engine rankings | --- | https://github.com/amm33/mywebclass-simulation/issues/6 | Completed | Adriana | 3/14 | 3/24 | Feature | --- |
 | As a website owner, I want to conduct usability testing to gather feedback on website design and functionality from the target audience | --- | https://github.com/amm33/mywebclass-simulation/issues/11 | Completed | Adriana | 3/14 | 3/24 | Feature | --- |
-|  | --- |  |  | Adriana | 3/14 | 3/24 | Feature | --- |
-|  | --- |  |  | Adriana | 3/14 | 3/24 | Feature | --- |
-|  | --- |  |  | Adriana | 3/14 | 3/24 | Feature | --- |
+| PopUp Styling | --- | https://github.com/amm33/mywebclass-simulation/issues/34 | Completed | Adriana | 3/14 | 3/246 | Feature/Enhancement | Changed up some of the styling in the popup modal |
+| Banner Styling | --- | https://github.com/amm33/mywebclass-simulation/issues/35 | Completed | Adriana | 3/14 | 3/26 | Feature/Enhancement | Made some changes to the banner |
+| Side Navbar Style | --- | https://github.com/amm33/mywebclass-simulation/issues/36 | Completed | Adriana | 3/14 | 3/26 | Feature/Enhancement | Added few styling |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
 
 Note: each completed task will be an issue and link of that issue will be added here. 
 Tasks are in the following categories: 
