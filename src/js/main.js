@@ -23,20 +23,20 @@ window.addEventListener('resize', () => {
 
 function createPrivacyModal () {
   const modalHtml = `
-    <div class="modal fade" id="privacyModal" tabindex="-1">
+    <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="cookie-popup-title">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Privacy Policy</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            <h5 class="modal-title" id="cookie-popup-title">Privacy Policy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="dismiss popup"></button>
           </div>
           <div class="modal-body">
             <p>Please read our <a href="privacy.html" target="_blank">Privacy Policy</a> carefully to learn about how we use cookies and your data.</p>
             <p>Do you agree to our Privacy Policy?</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" id="disagreeButton" data-bs-dismiss="modal">Disagree</button>
-            <button type="button" class="btn btn-primary" id="agreeButton">Agree</button>
+            <button type="button" class="btn btn-secondary" id="disagreeButton" data-bs-dismiss="modal" aria-label="Disagree with policy">Disagree</button>
+            <button type="button" class="btn btn-primary" id="agreeButton" aria-label="Accept cookies">Agree</button>
           </div>
         </div>
       </div>
